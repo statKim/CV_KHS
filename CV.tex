@@ -1,0 +1,303 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Awesome Resume/CV
+% XeLaTeX Template
+% Version 1.3 (30/3/2020)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Claud D. Park (posquit0.bj@gmail.com) with modifications by 
+% Vel (vel@latextemplates.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template must be compiled with XeLaTeX, the below lines will ensure this
+%!TEX TS-program = xelatex
+%!TEX encoding = UTF-8 Unicode
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+\documentclass[11pt, a4paper]{awesome-cv} % A4 paper size by default, use 'letterpaper' for US letter
+
+\geometry{left=2cm, top=1.5cm, right=2cm, bottom=2cm, footskip=.5cm} % Configure page margins with geometry
+
+\fontdir[fonts/] % Specify the location of the included fonts
+
+% Color for highlights
+\colorlet{awesome}{awesome-darknight} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
+%\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
+
+% Colors for text - uncomment and modify
+%\definecolor{darktext}{HTML}{414141}
+%\definecolor{text}{HTML}{414141}
+%\definecolor{graytext}{HTML}{414141}
+%\definecolor{lighttext}{HTML}{414141}
+
+\renewcommand{\acvHeaderSocialSep}{\quad\textbar\quad} % If you would like to change the social information separator from a pipe (|) to something else
+
+% 한글 폰트 설정
+\usepackage{kotex}
+\setmainhangulfont[ItalicFont={*}, ItalicFeatures={FakeSlant=.167}]{맑은 고딕}
+
+%----------------------------------------------------------------------------------------
+%	PERSONAL INFORMATION
+%	Comment any of the lines below if they are not required
+%----------------------------------------------------------------------------------------
+
+\name{Hyunsung}{Kim}
+\address{Department of Statistics, Chung-Ang University, Seoul, Korea}
+\mobile{(+82) 10-8613-4948}
+
+\email{hyunsung1021@gmail.com}
+\homepage{statkim.github.io}
+\github{statKim}
+%\linkedin{posquit0}
+%\skype{skypeid}
+%\stackoverflow{SOid}{SOname}
+%\twitter{@twit}
+%\linkedin{linkedin name}
+%\reddit{reddit account}
+%\xing{xing name}
+%\extrainfo{test} % Other text you want to include on this line
+
+\position{Master's Student in Statistics} % Your expertise/fields
+%\quote{``Make the change that you want to see in the world."} % A quote or statement
+
+\makecvfooter{\today}{Hyunsung Kim}{\thepage} % Specify the letter footer with 3 arguments: (<left>, <center>, <right>), leave any of these blank if they are not needed
+
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvheader % Print the header
+
+%----------------------------------------------------------------------------------------
+%	CV/RESUME CONTENT
+%	Each section is imported separately, open each file in turn to modify content
+%----------------------------------------------------------------------------------------
+
+% Education
+\cvsection{Education}
+
+\begin{cventries}
+	\cventry
+	{M.A. Student in Statistics} % Degree
+	{Chung-Ang University} % Institution
+	{Seoul, Korea} % Location
+	{Mar. 2019 - Present} % Date(s)
+	{ % Description(s) bullet points
+		\begin{cvitems}
+			\item {Advisor : Dr. Yaeji Lim}
+			\item {GPA : 4.39/4.5}
+		\end{cvitems}
+	}
+	
+	\cventry
+	{B.A. in Applied Statistics} % Degree
+	{Chung-Ang University} % Institution
+	{Seoul, Korea} % Location
+	{Mar. 2013 - Feb. 2019} % Date(s)
+	{ % Description(s) bullet points
+		\begin{cvitems}
+			\item {GPA : 4.05/4.5}
+%			\item {Cum Laude}
+		\end{cvitems}
+	}
+\end{cventries}
+
+
+% Research Interests
+\cvsection{Research Interests}
+
+\begin{cventries}
+	\begin{cvitems}
+		\begin{spacing}{1.2}
+			\item {Functional Data Analysis}
+			\item {Spatio-temporal Data Analysis}
+			\item {High-dimensional Data Analysis}
+		\end{spacing}
+		%	\item {Machine Learning}
+	\end{cvitems}
+	\vspace{0.5cm}
+\end{cventries}
+
+
+% Publications
+\cvsection{Publications}
+%\begingroup
+%\renewcommand{\section}[2]{}%
+%\bibliographystyle{unsrt}
+%%\bibliography{../refs}
+%\nocite{*}
+%\begin{thebibliography}{9}
+%	
+%	\bibitem{bootstrap2020}
+%	{\bf H. Kim} and Y. Lim. (2020). {\bf Bootstrap aggregated classification for sparse functional data}. {\em Submitted}.
+%	
+%	\bibitem{bootstrap20210}
+%	{\bf H. Kim} and Y. Lim. (2020). {\bf Bootstrap aggregated classification for sparse functional data}. {\em Submitted}.
+%
+%\end{thebibliography}
+%\begin{cventries}
+\begin{enumerate}
+	\item {\bf H. Kim} and Y. Lim. (2020). Bootstrap aggregated classification for sparse functional data. {\em Submitted}.
+\end{enumerate}
+%\end{cventries}
+
+
+% Presentation
+%\cvsection{Presentation}
+%\begin{cventries}
+%	%\cventry
+%	%{Presenter for <DEFCON 20th : The way to go to Las Vegas>} % Role
+%	%{6th CodeEngn (Reverse Engineering Conference)} % Event
+%	%{Seoul, S.Korea} % Location
+%	%{Jul. 2012} % Date(s)
+%	%{ % Description(s)
+%	%\begin{cvitems}
+%	%\item {Introduced CTF (Capture the Flag) hacking competition and advanced techniques and strategy for CTF}
+%	%\end{cvitems}
+%	%}
+%	%
+%	%
+%	%\cventry
+%	%{Presenter for <Metasploit 101>} % Role
+%	%{6th Hacking Camp - S.Korea} % Event
+%	%{S.Korea} % Location
+%	%{Sep. 2012} % Date(s)
+%	%{ % Description(s)
+%	%\begin{cvitems}
+%	%\item {Introduced basic procedure for penetration testing and how to use Metasploit}
+%	%\end{cvitems}
+%	%}
+%\end{cventries}
+
+
+% Honors & Awards
+\cvsection{Honors \& Awards}
+
+%\cvsubsection{International}
+\begin{cvhonors}
+	\cvhonor
+	{Chung-Ang University Graduate Research Scholarship (Full-tuition)} % Award
+	{Chung-Ang University Graduate School} % Event
+	{Seoul, Korea} % Location
+	{2019.03} % Date(s)
+	
+	\cvhonor
+	{Scholarship for Academic Excellence (65\% tuition)} % Award
+	{Chung-Ang University} % Event
+	{Seoul, Korea} % Location
+	{2018.09} % Date(s)
+	
+	\cvhonor
+	{Scholarship for Academic Excellence (65\% tuition)} % Award
+	{Chung-Ang University} % Event
+	{Seoul, Korea} % Location
+	{2018.03} % Date(s)
+	
+	\cvhonor
+	{Scholarship for Academic Excellence (35\% tuition)} % Award
+	{Chung-Ang University} % Event
+	{Seoul, Korea} % Location
+	{2014.03} % Date(s)
+	
+	\cvhonor
+	{Scholarship for Human Resource Development (₩ 24,000,000 for 4 years)} % Award
+	{Nonghyup Foundation} % Event
+	{Seoul, Korea} % Location
+	{2013.03} % Date(s)
+\end{cvhonors}
+
+
+% Projects
+\cvsection{Projects}
+
+\begin{cventries}
+	\cventry
+	{중앙의대 예방의학교실} % Organization
+	{경기도 고혈압·당뇨병 등록관리사업 효과평가 분석} % Project title
+	{Seoul, Korea} % Location
+	{Jul. 2019 - Feb. 2020} % Date(s)
+	{ % Description(s) of tasks/responsibilities
+		%\begin{cvitems}
+		%\item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+		%\item {Improved functionality on military command and control system for incident response with Java Servlet.}
+		%\item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
+		%\end{cvitems}
+	}
+	
+	\cventry
+	{부품운영팀, 현대모비스} % Organization
+	{빅데이터 기반 서비스부품 수요예측 강화} % Project title
+	{Seoul, Korea} % Location
+	{Feb. 2019 - Sep. 2019} % Date(s)
+	{ % Description(s) of tasks/responsibilities
+		%\begin{cvitems}
+		%\item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+		%\item {Improved functionality on military command and control system for incident response with Java Servlet.}
+		%\item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
+		%\end{cvitems}
+	}
+\end{cventries}
+
+
+% Teaching Experience
+\cvsection{Teaching Experience}
+
+\cvsubsection{Teaching Assistant}
+\begin{cventries}
+	\cventry
+	{Department of Applied Statistics, Chung-Ang University} % Organization
+	{Introduction to Statistical Learning} % curriculum title
+	{Seoul, Korea} % Location
+	{Sep. 2019 - Dec. 2019} % Date(s)
+	{ % Description(s) of tasks/responsibilities
+		%\begin{cvitems}
+		%\item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+		%\item {Improved functionality on military command and control system for incident response with Java Servlet.}
+		%\item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
+		%\end{cvitems}
+	}
+\end{cventries}
+
+
+% Skils
+\cvsection{Computer Skills}
+\begin{cvskills}
+	\cvskill
+	{Programming} % Category
+	{R, Python, SQL, SAS} % Skills
+	%
+	%\cvskill
+	%{Languages} % Category
+	%{Korean, English, Japanese, Chinese} % Skills
+\end{cvskills}
+
+
+
+%\input{cv-sections/education.tex}
+%\input{cv-sections/interests.tex}
+%\input{cv-sections/publication.tex}
+%%\input{cv-sections/presentation.tex}
+%\input{cv-sections/honors.tex}
+%\input{cv-sections/project.tex}
+%\input{cv-sections/teaching.tex}
+%\input{cv-sections/skills.tex}
+
+
+%\newpage % Force a new page for looks
+%\input{cv-sections/experience.tex}
+%\input{cv-sections/extracurricular.tex}
+%\input{cv-sections/writing.tex}
+%\input{cv-sections/committees.tex}
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
