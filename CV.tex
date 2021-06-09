@@ -32,8 +32,8 @@
 % Color for highlights
 \colorlet{awesome}{awesome-darknight} % Default colors include: awesome-emerald, awesome-skyblue, awesome-red, awesome-pink, awesome-orange, awesome-nephritis, awesome-concrete, awesome-darknight
 %\definecolor{awesome}{HTML}{CA63A8} % Uncomment if you would like to specify your own color
-
-% Colors for text - uncomment and modify
+%
+%% Colors for text - uncomment and modify
 %\definecolor{darktext}{HTML}{414141}
 %\definecolor{text}{HTML}{414141}
 %\definecolor{graytext}{HTML}{414141}
@@ -43,7 +43,7 @@
 
 % 한글 폰트 설정
 \usepackage{kotex}
-\setmainhangulfont[ItalicFont={*}, ItalicFeatures={FakeSlant=.167}]{맑은 고딕}
+\setmainhangulfont[ItalicFont={*}, ItalicFeatures={FakeSlant=.167}]{나눔고딕}
 
 % % bibtex 설정
 % \usepackage{biblatex}
@@ -137,7 +137,7 @@
 	\begin{cvitems}
 		\begin{spacing}{1.2}
 			\item {Functional data analysis}
-			\item {Spatio-temporal data analysis}
+%			\item {Spatio-temporal data analysis}
 			\item {High-dimensional data analysis}
 		\end{spacing}
 		%	\item {Machine Learning}
@@ -150,32 +150,81 @@
 % Publications
 \cvsection{Publications}
 
-% \cvsubsection{REFEREED JOURNAL PAPERS}
+%\cvsubsection{REFEREED JOURNAL PAPERS}
 \begin{cventries}
 	\begin{enumerate}
-		\item {\bf Kim, H.}, \& Lim, Y. (2021). \href{https://doi.org/10.1080/02664763.2021.1889997}{Bootstrap aggregated classification for sparse functional data}. {\em Journal of Applied Statistics}, In press.
-		\item {\bf Kim, H.}, Li, X., \& Lim, Y. (2021). Robust group independent component analysis. {\em The Korean Journal of Applied Statistics}, 34(2), 135–147.
+		\item {\bf Kim, H.}, Lim, Y., \& Park, Y. (2021+). Robust principal component analysis and its applications for partially observed functional data. {\em In preparation.}	
+		\item {\bf Kim, H.}, \& Lim, Y. (2021+). Robust Principal component analysis for functional snippets. {\em In preparation.}	
+		\item Park, E., {\bf Kim, H.}, Lim, Y., Lee, W., \& Lee, S.  (2021+). Effect of chronic disease management led by small financial incentives to old patients on medication adherence and health outcome in busy primary care clinics in South Korea. {\em In preparation.} {\bf (Co-first author)}
+		
+		\item Park, J-Y., Choe, Y-J., Lim, Y., \& {\bf Kim, H.} (2021+) Association between the incidence of type 1 diabetes mellitus and tuberculosis or Bacillus Calmette-Guérin immunization in children and adolescents: data from the International Diabetes Federation and World Health Organization. {\em Submitted.}
+		\item {\bf Kim, H.}, \& Lim, Y. (2021+). \href{https://doi.org/10.1080/02664763.2021.1889997}{Bootstrap aggregated classification for sparse functional data}. {\em Journal of Applied Statistics}, In press.
+		\item {\bf Kim, H.}, Li, X., \& Lim, Y. (2021). Robust group independent component analysis. {\em The Korean Journal of Applied Statistics}, {\bf 34(2)}, 135–147.
 	\end{enumerate}
 \end{cventries}
 % \printbibliography
+
+%\cvsubsection{MANUSCRIPT IN PREPARATIONS}
+%\begin{cventries}
+%	\begin{enumerate}
+%		\item {\bf Kim, H.}, Lim, Y., \& Park, Y. (2021+). Robust principal component analysis and its applications for partially observed functional data. {\em In preparation.}	
+%		\item {\bf Kim, H.}, \& Lim, Y. (2021+). Robust Principal component analysis for functional snippets. {\em In preparation.}	
+%		\item Park, E., {\bf Kim, H.}, Lim, Y., Lee, S., \& Lee, W.  (2021+). Effect of chronic disease management led by small financial incentives to old patients on medication adherence and health outcome in busy primary care clinics in South Korea. {\em In preparation.}	{\bf (Co-first author)}
+%	\end{enumerate}
+%\end{cventries}
+
+
+% Software Developments
+\cvsection{Software Developments}
+
+ \cvsubsection{R PACKAGES}
+\begin{cventries}
+	\cventry
+	{Robust covariance estimation and principal component analysis for functional snippets} % Role
+	{robfpca} % Event
+	{https://github.com/statKim/robfpca} % Location
+	{2021} % Date(s)
+	{ % Description(s)
+%	\begin{cvitems}
+%		\item {Introduced CTF (Capture the Flag) hacking competition and advanced techniques and strategy for CTF}
+%	\end{cvitems}
+	}
+	
+	\cventry
+	{Rmarkdown template for reports or assignments.} % Role
+	{rmd2report} % Event
+	{https://github.com/statKim/rmd2report} % Location
+	{2021} % Date(s)
+	{ % Description(s)
+%	\begin{cvitems}
+%		\item {Introduced CTF (Capture the Flag) hacking competition and advanced techniques and strategy for CTF}
+%	\end{cvitems}
+	}
+\end{cventries}
+% \printbibliography
+
 
 
 % Presentation
 \cvsection{Presentation}
 
-TBA
-%\begin{cventries}
-%	\cventry
-%	{Presenter for <DEFCON 20th : The way to go to Las Vegas>} % Role
-%	{6th CodeEngn (Reverse Engineering Conference)} % Event
-%	{Seoul, S.Korea} % Location
-%	{Jul. 2012} % Date(s)
-%	{ % Description(s)
+%TBA
+\begin{cventries}
+%	\begin{itemize}
+%		\item Robust covariance estimation for partially observed functional data. {\em Bernoulli-IMS 10th World Congress in Probability and Statistics}, Seoul, Korea, July 2021.
+%	\end{itemize}
+	
+	\cventry
+	{Presenter for <Robust covariance estimation for partially observed functional data>} % Role
+	{Bernoulli-IMS 10th World Congress in Probability and Statistics} % Event
+	{Seoul, South Korea} % Location
+	{Jul. 2021} % Date(s)
+	{ % Description(s)
 %	\begin{cvitems}
-%	\item {Introduced CTF (Capture the Flag) hacking competition and advanced techniques and strategy for CTF}
+%		\item {Introduced CTF (Capture the Flag) hacking competition and advanced techniques and strategy for CTF}
 %	\end{cvitems}
-%	}
-%	
+	}
+	
 %	\cventry
 %	{Presenter for <Metasploit 101>} % Role
 %	{6th Hacking Camp - S.Korea} % Event
@@ -186,7 +235,7 @@ TBA
 %	\item {Introduced basic procedure for penetration testing and how to use Metasploit}
 %	\end{cvitems}
 %	}
-%\end{cventries}
+\end{cventries}
 
 
 % Grants
@@ -294,32 +343,32 @@ TBA
 %	{Jul. 2019 - Feb. 2020} % Date(s)
 %	{}
 
-	\cventry
-	{Parts operation management team, Hyundai Mobis} % Organization
-	{Strengthening Demand Forecasting for Big Data-based Service Parts} % Project title
-	{Seoul, South Korea} % Location
-	{Feb. 2019 - Sep. 2019} % Date(s)
-	{}
-
 %	\cventry
-%	{중앙의대 예방의학교실} % Organization
-%	{경기도 고혈압·당뇨병 등록관리사업 효과평가 분석} % Project title
-%	{Seoul, Korea} % Location
-%	{Jul. 2019 - Feb. 2020} % Date(s)
-%	{}
-%	
-%	\cventry
-%	{부품운영팀, 현대모비스} % Organization
-%	{빅데이터 기반 서비스부품 수요예측 강화 (산학과제)} % Project title
-%	{Seoul, Korea} % Location
+%	{Parts operation management team, Hyundai Mobis} % Organization
+%	{Strengthening Demand Forecasting for Big Data-based Service Parts} % Project title
+%	{Seoul, South Korea} % Location
 %	{Feb. 2019 - Sep. 2019} % Date(s)
-%	{ % Description(s) of tasks/responsibilities
-%		%\begin{cvitems}
-%		%\item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
-%		%\item {Improved functionality on military command and control system for incident response with Java Servlet.}
-%		%\item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
-%		%\end{cvitems}
-%	}
+%	{}
+
+	\cventry
+	{경기도 공공보건의료지원단} % Organization
+	{경기도 고혈압·당뇨병 등록관리사업 효과평가 분석} % Project title
+	{Seoul, Korea} % Location
+	{Jul. 2019 - Feb. 2020} % Date(s)
+	{}
+	
+	\cventry
+	{부품운영팀, 현대모비스} % Organization
+	{빅데이터 기반 서비스부품 수요예측 강화} % Project title
+	{Seoul, Korea} % Location
+	{Feb. 2019 - Sep. 2019} % Date(s)
+	{ % Description(s) of tasks/responsibilities
+		%\begin{cvitems}
+		%\item {Implemented a military cooperation system which is web based real time messenger in Scala on Lift.}
+		%\item {Improved functionality on military command and control system for incident response with Java Servlet.}
+		%\item {Lead engineer on agent-less backtracking system that can discover client device's fingerprint(including public and private IP) independently of the Proxy, VPN and NAT.}
+		%\end{cvitems}
+	}
 \end{cventries}
 
 
@@ -336,13 +385,26 @@ TBA
 	{} % Description(s) of tasks/responsibilities
 \end{cventries}
 
+%\cvsubsection{Others}
+%\begin{cventries}
+%	\cventry
+%	{Department of Fashion Design, Dong-A University} % Organization
+%	{Introduction to Statistics with Python} % curriculum title
+%	{Busan, South Korea} % Location
+%	{Jul. 2021 - Aug. 2021} % Date(s)
+%	{} % Description(s) of tasks/responsibilities
+%\end{cventries}
 
 % Skils
 \cvsection{Computer Skills}
 \begin{cvskills}
 	\cvskill
 	{Programming} % Category
-	{R, Python, SQL, SAS, Git} % Skills
+	{R, Python, C/C++, SQL, SAS, LaTeX} % Skills
+	
+	\cvskill
+	{Version Control} % Category
+	{Git} % Skills
 	
 %	\cvskill
 %	{Programming} % Category
